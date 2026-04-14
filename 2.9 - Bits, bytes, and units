@@ -1,0 +1,53 @@
+
+Bits, bytes, and units
+  1 bit (b) is a binary 0 or 1; 4 bits = nibble, 8 bits = 1 byte (B).
+  Lowercase b = bits (used for transfer speed), uppercase B = bytes (used for storage).
+  Magnitudes for bits: Kb, Mb, Gb, Tb (each step = ×1000).
+  1000 bits = 1 Kb; 1 Kb = 1000 bits; 1 Mb = 1,000,000 bits; 1 Gb = 1,000,000,000 bits; 1 Tb = 1,000,000,000,000 bits.
+  Convert bits to bytes: divide by 8 (example: 1000 bits = 125 bytes).
+  1 MB (megabyte) is eight times larger (in bits) than 1 Mb (megabit).
+
+Speed notation
+  Bits per second notation: bps, Kbps, Mbps, Gbps, Tbps (lowercase b always).
+  Example: 50 bits sent in 2 seconds = 25 bps (50 ÷ 2).
+  Example to remember: 250 MB/s = 250 × 8 = 2000 Mb/s = 2 Gb/s (faster than 1 Gb/s).
+
+Accelerated Mode Activated
+
+Short Socratic Deep Dive (keeps curiosity alive):
+ 1. Why use lowercase b for bits (transfer) and uppercase B for bytes (storage) at the root level?
+ 2. Why do magnitudes step by ×1000 (decimal) for transfer speeds, and how does that connect to real cable performance?
+ 3. Quick conversion check: How does 250 MB/s relate to Gbps, and why is this useful when choosing or troubleshooting cables?
+
+Direct Answers (clear & concise):
+  1. Your statements are excellent and mostly spot-on.
+    1 bit (b) = binary 0 or 1.
+    4 bits = 1 nibble, 8 bits = 1 byte (B) → correct.
+    Lowercase b = bits (transfer speed). Uppercase B = bytes (storage) → perfect rule to remember.
+
+  2. Magnitudes (decimal base-10):
+    1 Kb = 1,000 bits
+    1 Mb = 1,000,000 bits
+    1 Gb = 1,000,000,000 bits
+    1 Tb = 1,000,000,000,000 bits
+    → All correct for networking/cable contexts (CompTIA loves this).
+
+  3. Conversion rule:
+    Bits → Bytes: divide by 8 (1000 bits = 125 bytes) → correct.
+    1 MB is exactly 8 times larger than 1 Mb (in bits) → yes, because 1 MB = 8 Mb.
+
+  4. Speed notation – fully correct:
+    Bits per second: bps, Kbps, Mbps, Gbps, Tbps (always lowercase b).
+      Example: 50 bits in 2 seconds = 25 bps → right.
+    Key example you gave is gold: 250 MB/s = 250 × 8 = 2,000 Mbps = 2 Gbps → this is exactly the kind of mental math that appears on the exam and in real cable troubleshooting.
+
+
+Tiny polish (only for precision on the exam):
+  You wrote “1 Kb = 1000 bits” twice – it’s correct, just a repeat.
+  Everything else is accurate. No rabbit holes needed.
+
+Quick Semantic Tree (roots → trunk → leaves):
+  Root: Data = binary 1s & 0s.
+  Trunk: 1 bit → 8 bits = 1 byte.
+  Branches: Transfer = bits/sec (decimal ×1000, lowercase b) | Storage = Bytes (uppercase B).
+  Leaves: Cable speed ratings (e.g., 10 Gbps = 1,250 MB/s theoretical) directly affect display performance, network throughput, and troubleshooting questions later.
